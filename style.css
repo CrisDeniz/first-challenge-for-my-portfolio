@@ -202,7 +202,7 @@ body{
     }
 
     .bars::before{
-        left: -10px;
+        width: 40px;
     }
 
 }
