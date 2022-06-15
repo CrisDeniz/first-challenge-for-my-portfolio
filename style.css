@@ -200,6 +200,11 @@ body{
     .spending-value .bars{
         width: 30px;
     }
+
+    .bars::before{
+        left: -10px;
+    }
+
 }
 
 @media (max-width: 315px) {
@@ -207,22 +212,8 @@ body{
         font-size: 80%;
     }
 
-    .spending{
-        width: 90%;
-    }
-    .balance{
-        width: 90%;
-    }
-
     .spending-value{
         gap: 5px;
     }
 
-    .spending-value div{
-        width: 30px;
-    }
-
-    .spending-value .bars{
-        width: 30px;
-    }
 }
