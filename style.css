@@ -12,7 +12,7 @@ body{
     flex-direction: column;
     background:hsl(27, 66%, 92%);
     font-size: 18px;
-    font-family: 'DM Sans', sans-serif
+    font-family: 'DM Sans', sans-serif;
 }
 
 .balance{
@@ -176,6 +176,19 @@ body{
     width: 100%;
     height: fit-content
 }
+
+.attribution{
+    font-size: 0.7rem;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    color: hsl(25, 47%, 15%);
+}
+
+.attribution a{
+    color: hsl(28, 10%, 53%);
+}
+
+
 
 @media all and (max-width: 375px) {
     html{
