@@ -73,6 +73,7 @@ body{
     justify-content: center;
     align-items: flex-end;
     gap: 20px;
+    color: hsl(28, 10%, 53%);
 }
 
 .spending-value::after{
@@ -99,6 +100,10 @@ body{
     background: hsl(10, 79%, 65%);
     transition: 0.5s;
     cursor: pointer;
+}
+
+.spending-value p{
+    margin-top: 5px;
 }
 
 .bars::before{
