@@ -177,7 +177,7 @@ body{
     height: fit-content
 }
 
-@media (max-width: 375px) {
+@media all and (max-width: 375px) {
     html{
         font-size: 90%;
     }
@@ -207,7 +207,7 @@ body{
 
 }
 
-@media (max-width: 315px) {
+@media all and (max-width: 315px) {
     html{
         font-size: 80%;
     }
